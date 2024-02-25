@@ -171,6 +171,9 @@ ul.dropdown-menu{
 
 #shopcart{
     background-color: #2b2d30;
+    border-bottom:solid;
+    border-width: 3px;
+    border-color: #FF0000;
 }
 
 .card{
