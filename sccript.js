@@ -136,7 +136,7 @@ window.onload = function dom(){
         newArticle.setAttribute("class", "item")
         newArticle.innerHTML = `
         <div  class="col">
-        <div id="${listItem.name}" class="card" style="width: 18rem;">
+        <div id="${listItem.name}" class="card" style="width: 19rem;">
           <img src="${listItem.image}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">${listItem.name}</h5>
@@ -155,7 +155,7 @@ window.onload = function dom(){
         cartcontainer.setAttribute("class", "itmm")
         cartcontainer.innerHTML = `
         <div  class="col">
-        <div id="${listItem.name}" class="card" style="width: 18rem;">
+        <div id="${listItem.name}" class="card" style="width: 19rem;">
           <img src="${listItem.image}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">${listItem.name}</h5>
