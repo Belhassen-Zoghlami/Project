@@ -149,24 +149,24 @@ ul.dropdown-menu{
     bottom: 0;
     border:solid;
     border-top: none;
-    border-width: 2px;
-    border-color: #FF0000;
+    border-width: 3px;
+    border-color: #850000;
 }
 .card img{
     background-color: white;
     height: 286.67PX;
     border:solid;
     border-bottom: none;
-    border-width: 2px;
-    border-color: #FF0000;
+    border-width: 3px;
+    border-color: #850000;
 }
 
 .indbod{
     padding-bottom: 2em;
     background-color: #24272d;
     border-bottom:solid;
-    border-width: 2px;
-    border-color: #FF0000;
+    border-width: 3px;
+    border-color: #850000;
 }
 
 #shopcart{
@@ -210,8 +210,8 @@ ul.dropdown-menu{
 #shopcart .card-body{
     border:solid;
     border-top: none;
-    border-width: 2px;
-    border-color: #FF0000;
+    border-width: 3px;
+    border-color: #850000;
 }
 
 .ty{
