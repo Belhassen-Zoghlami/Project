@@ -1,0 +1,200 @@
+/*         NAV general         */
+
+.navi{
+    background-color: #24272d;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{ 
+    font-size: 3rem;
+    color: white;
+}
+
+
+
+/*         LOGO         */
+
+
+.navbar-nav a{
+    color: white;
+}
+.navbar-brand img{
+    height: 75px;
+    padding-right: 6em; 
+}
+a.navbar-brand{
+    padding-bottom: 0;
+}
+
+
+
+
+/*         Sticky navbar         */
+
+
+
+
+.scnd div{
+    padding-left: 18em;
+    padding-right: 15em;
+
+}
+.scnd a{
+    font-size: 2rem;
+}
+
+form.d-flex{
+    width:40em;
+    height:3em;
+}
+
+form button{
+    width: 10em;
+}
+
+.d-flex input{
+    font-size: 1.4rem;
+}
+
+.sticknav{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #24272d;
+}
+
+ul.dropdown-menu{
+    background-color: #2b2d30;
+}
+
+
+
+/*         Carousel         */
+
+
+
+
+.carzel{
+
+    margin-top: 0em;
+}
+.carousel-inner{
+    background-color: black;
+    
+}
+.carousel-item{
+    height: 40em;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.18);
+    border-radius: 0.6em;
+}
+.carzel h5{
+    font-size: x-large;
+    
+}
+.carzel p{
+
+    font-size: large;
+}
+
+
+
+ /*         Grid Layout           */
+/*         Shop and cart         */
+
+
+
+
+.gridder{
+    padding-top: 6em;
+    padding-bottom: 4em;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+
+.gridder h2{
+    padding-right: 47%;
+    padding-left:47% ;
+    padding-bottom: 2em;
+}
+
+.row-cols-3{
+    row-gap: 2em;
+}
+.col{
+    padding-bottom: 4em;
+}
+
+
+
+/*         SHOP section         */
+
+
+
+
+.indx .card-body{
+    height: 220px;
+    bottom: 0;
+}
+.card img{
+    background-color: white;
+    height: 286.67PX;
+}
+
+.indbod{
+    padding-bottom: 2em;
+    background-color: #24272d;
+}
+
+#shopcart{
+    background-color: #2b2d30;
+}
+
+.card{
+    background-image: url("https://wallpaperaccess.com/full/670457.jpg");
+    color: aliceblue;
+}
+
+.rapper{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-left: 38%;
+}
+.rapper span{
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+.rapper span .num{
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    cursor:none;
+}
+
+.cart-buy{
+    margin-top: 2em;
+    color: rgb(170, 170, 170);
+}
+
+.ty{
+    padding: 33%;
+    color: rgb(152, 152, 152);
+    
+}
+
+
+.cartt h2{
+    padding: 50%;
+}
+
