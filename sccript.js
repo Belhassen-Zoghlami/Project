@@ -3,9 +3,9 @@
    
 listshop = [
     {
-        "name": "Logitech G pro x lightspeed",
-        "price": 225 ,
-        "quantity": 11,
+        "name": "Logitech G Pro x Superlight",
+        "price": 149.99 ,
+        "quantity": 6,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Aliquam corporis pariatur autem blanditiis obcaecati fugiat
@@ -14,8 +14,8 @@ listshop = [
     },
     {
         "name": "Razer Basilisk Ultimate",
-        "price": 215,
-        "quantity": 21,
+        "price": 169.99,
+        "quantity": 10,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Aliquam corporis pariatur autem blanditiis obcaecati fugiat
@@ -24,7 +24,7 @@ listshop = [
     },
     {
         "name": "Glorious Model O Wireless",
-        "price": 215,
+        "price": 79.99,
         "quantity": 21,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -34,8 +34,8 @@ listshop = [
     },
     {
         "name": "Logitech G502 LightSpeed",
-        "price": 215,
-        "quantity": 21,
+        "price": 119.99,
+        "quantity": 18,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Aliquam corporis pariatur autem blanditiis obcaecati fugiat
@@ -44,8 +44,8 @@ listshop = [
     },
     {
         "name": "ROG Strix G713",
-        "price": 245,
-        "quantity": 21,
+        "price": 2199.99,
+        "quantity": 19,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Aliquam corporis pariatur autem blanditiis obcaecati fugiat`,
@@ -53,8 +53,8 @@ listshop = [
     },
     {
         "name": "Razer Blade 16",
-        "price": 255,
-        "quantity": 31,
+        "price": 2599.99,
+        "quantity": 22,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Aliquam corporis pariatur autem blanditiis obcaecati fugiat
@@ -63,7 +63,7 @@ listshop = [
     },
     {
         "name" : "Lenovo Ideapad Gaming 3",
-        "price" : 160 , 
+        "price" : 589.99 , 
         "quantity" : 5,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -73,7 +73,7 @@ listshop = [
     },
     {
         "name": "Legion Pro 7i",
-        "price": 215,
+        "price": 1779.99,
         "quantity": 21,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -83,7 +83,7 @@ listshop = [
     },
     {
         "name" : "Razer Kraken V3 Pro",
-        "price" : 135 , 
+        "price" : 239.99 , 
         "quantity" : 8,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -93,7 +93,7 @@ listshop = [
     },
     {
         "name": "Redragon Zeus X RGB",
-        "price": 215,
+        "price": 19.99,
         "quantity": 21,
         "description":`
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -136,15 +136,17 @@ window.onload = function dom(){
         newArticle.setAttribute("class", "item")
         newArticle.innerHTML = `
         <div  class="col">
-        <div id="${listItem.name}" class="card" style="width: 19rem;">
-          <img src="${listItem.image}" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">${listItem.name}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">${listItem.description}</h6>
-            <p class="card-text">${listItem.price}$</p>
-            <button type="button" class="btn btn-light carter">Add To Cart</button>
-          </div>
-        </div>
+            <div id="${listItem.name}" class="card" style="width: 19rem;">
+                <!--<a href="${listItem.name}.html">-->
+                    <img src="${listItem.image}" class="card-img-top" alt="...">
+                <!--</a>-->
+            <div class="card-body">
+                <h5 class="card-title">${listItem.name}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">${listItem.description}</h6>
+                <p class="card-text">$ ${listItem.price}</p>
+                <button type="button" class="btn btn-light carter">Add To Cart</button>
+            </div>
+            </div>
         </div>
 
         `

@@ -1,3 +1,9 @@
+html{
+    color-scheme: dark;
+    background-color: #24272d;
+}
+
+
 /*         NAV general         */
 
 .navi{
@@ -9,6 +15,9 @@
 nav li{ 
     font-size: 3rem;
     color: white;
+}
+#navbarNav a{
+    padding-right: 0.7em;
 }
 
 
@@ -36,8 +45,8 @@ a.navbar-brand{
 
 
 .scnd div{
-    padding-left: 18em;
-    padding-right: 15em;
+    padding-left: 16em;
+    padding-right: 13em;
 }
 .scnd a{
     font-size: 2rem;
