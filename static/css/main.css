@@ -1,0 +1,288 @@
+
+html{
+    color-scheme: dark;
+    background-color: #24272d;
+}
+
+
+/*         NAV general         */
+
+.navi{
+    background-color: #24272d;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{ 
+    font-size: 3rem;
+    color: white;
+}
+#navbarNav a{
+    padding-right: 0.7em;
+}
+
+#cart-total{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+	color:#fff;
+    position: absolute;
+    top: 1.4em;
+    right:-0.15%;
+	width: 20px;
+	height: 25px;
+}
+
+.form-inline i:hover{
+    color: #070809;
+}
+
+
+/*         LOGO         */
+
+
+.navbar-nav a{
+    color: white;
+}
+.navbar-brand img{
+    height: 75px;
+    padding-right: 6em; 
+}
+a.navbar-brand{
+    padding-bottom: 0;
+}
+
+
+
+
+/*         Sticky navbar         */
+
+
+
+.lg img{
+    justify-self: center;
+    
+}
+
+.scnd a{
+    font-size: 2rem;
+}
+
+.sticknav form.d-flex{
+    width:30em;
+    height:3em;
+}
+
+.sticknav form button{
+    width: 10em;
+}
+
+.d-flex input{
+    font-size: 1.4rem;    border: solid;
+    border-color: #FF0000;
+}
+
+.sticknav{
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #24272d;
+    border-bottom:solid;
+    border-width: 3px;
+    border-color: #FF0000;
+
+}
+
+ul.dropdown-menu{
+    background-color: #2b2d30;
+    border: solid;
+    border-color: #ff0000db;
+}
+
+
+
+/*         Carousel         */
+
+
+
+
+.carzel{
+
+    margin-top: 0em;
+    border-bottom:solid;
+    border-width: 3px;
+    border-color: #FF0000;
+}
+.carousel-inner{
+    background-color: black;
+    
+}
+.carousel-item{
+    height: 40em;
+}
+
+.carzel h5{
+    font-size:3rem;
+    -webkit-text-stroke: 1.5px #2b2d30;
+}
+.carzel p{
+
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px black;
+}
+
+
+
+ /*         Grid Layout           */
+/*         Shop and cart         */
+
+
+
+.gridder{
+    padding-top: 6em;
+    padding-bottom: 4em;
+    padding-right: 8%;
+    padding-left: 8%;
+    
+}
+
+.gridder h2{
+    padding-right: 47%;
+    padding-left:47% ;
+    padding-bottom: 2em;
+}
+
+.row-cols-3{
+    row-gap: 2em;
+    column-gap: 0.2em;
+}
+.col{
+    padding-bottom: 4em;
+}
+
+
+
+/*         SHOP section         */
+
+
+
+
+.indx .card-body{
+    height: 220px;
+    bottom: 0;
+    border:solid;
+    border-top: none;
+    border-width: 3px;
+    border-color: #850000;
+}
+.card-subtitle{
+    color: #6e757c;
+}
+.card img{
+    background-color: white;
+    height: 286.67PX;
+    border:solid;
+    border-bottom: none;
+    border-width: 3px;
+    border-color: #850000;
+}
+
+.card a{
+    height: 286.67PX;
+    background-color: white;
+}
+
+.indbod{
+    padding-bottom: 2em;
+    background-color: #24272d;
+    border-bottom:solid;
+    border-width: 3px;
+    border-color: #850000;
+}
+
+.card{
+    background-image: url("https://wallpaperaccess.com/full/670457.jpg");
+    color: aliceblue;
+}
+
+#shopcart{
+    background-color: #2b2d30;
+    border-bottom:solid;
+    border-width: 3px;
+    border-color: #FF0000;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 10px;
+}
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+.table th{
+    background-color: #fff;
+}
+
+.row-image{
+	width: 100px;
+}
+
+.cart-row{
+	display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+
+}
+
+.quantity{
+	display: inline-block;
+	font-weight: 700;
+	padding-right:10px;
+	
+
+}
+
+.chg-quantity{
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	margin-top: 5px;
+	transition:.1s;
+}
+
+.chg-quantity:hover{
+	opacity: .6;
+}
+
+
+.chkout{
+    background-color: #24272d;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.chkout .btn{
+	border-radius: 0;
+}
+.chkout .btn-success{
+    width: 100%;
+}
+
+.hidden{
+	display: none!important;
+}
+
+.chkout .form-field{
+	width:250px;
+	display: inline-block;
+	padding: 5px;
+}
