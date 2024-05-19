@@ -1,0 +1,25 @@
+{% extends 'store/reglog.html' %}
+{% block logs %}
+<form method="POST" action="" class="lgin">
+    {%csrf_token%}
+<h3>Login Here</h3>
+
+<label for="username">Username</label>
+<input class="lgn" type="text" name="username" placeholder="Email or Phone" id="username">
+
+<label for="password">Password</label>
+<input class="lgn" type="password" name="password" placeholder="Password" id="password">
+
+<button class="lgns" type="submit">Log In</button>
+<div class="social">
+    {% for message in messages%}
+    <p>{{message}}</p>
+    {% endfor %}
+    <a href="{% url 'register' %}">
+        <div class="go">
+            <i class="fab fa-google"></i>  Sign Up
+        </div>
+    </a>
+</div>
+</form>
+{% endblock logs%}

@@ -1,0 +1,52 @@
+{% extends 'store/reglog.html' %}
+{% block logs %}
+<style>
+    .background{
+        margin-top: 20px;
+    }
+
+    form.lgin{
+        margin-top: 80px;
+        height: 780px;
+        width: 500px;
+    }
+
+    .shape:first-child{
+        left: -150px;
+    }
+    .shape:last-child{
+        right: -130px;
+    }
+</style>
+
+
+<form method="POST" action="" class="lgin">
+    {%csrf_token%}
+<h3>Login Here</h3>
+
+<label for="username">Email</label>
+{{form.email}}
+
+<label for="username">Username</label>
+    {{form.username}}
+
+
+<label for="password">Password</label>
+{{form.password1}}
+
+<label for="confpassword">Confirm Password</label>
+{{form.password2}}
+
+<button class="lgns" >Sign Up</button>
+<div class="social">
+    <a href="{% url 'login' %}">
+        <div class="go">
+            <i class="fab fa-google"></i>  Log In
+        </div>
+    </a>
+</div>
+
+
+</form>
+
+{% endblock logs%}
